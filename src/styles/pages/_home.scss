@@ -1,0 +1,72 @@
+.home {
+  .homeContent {
+    background: linear-gradient(40deg, $white 1%, transparent 40%);
+    min-height: $minHeight;
+    width: 100%;
+    min-height: 500px;
+    border-radius: $borderRadius;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: inherit;
+      background: url("../../media/dev.png") no-repeat center/cover;
+      z-index: -1;
+      filter: brightness(40%);
+    }
+
+    .content {
+      position: absolute;
+      top: 20%;
+      left: 13%;
+      font-family: $font-1;
+
+      h2 {
+        font-size: 2.5rem;
+        padding: 1.5rem 0 7rem;
+        color: $white;
+        text-shadow: 1px 4px 1px $black;
+      }
+      .pdf {
+        a {
+          display: block;
+          width: 70%;
+          font-size: 1.5rem;
+          background: $color-4;
+          padding: 1rem 2rem;
+          border-radius: $borderRadius;
+          box-shadow: 0 5px 1px rgb(15, 15, 15);
+          transition: 0.2s ease;
+          text-align: center;
+
+          &:hover {
+            transition: all 1.2s ease;
+            transform: scale(1.1);
+            background: $color-5;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .homeContent {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 580px) {
+  .homeContent {
+    &:after {
+      background: url("../../media/dev.png") no-repeat 60% 50% / cover !important;
+    }
+    h1 {
+      font-size: 3rem !important;
+    }
+    h2 {
+      font-size: 1.8rem !important;
+    }
+  }
+}
