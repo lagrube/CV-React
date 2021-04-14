@@ -12,8 +12,8 @@ const Skill = () => {
       <div className="knowledgesContent">
         <Languages />
         <Experiences />
-        <Hobbies />
         <OtherSkill />
+        <Hobbies />
       </div>
     </div>
   );

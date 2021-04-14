@@ -5,12 +5,12 @@ $font-2: "Dosis", sans-serif;
 $font-3: "Josefin Sans", serif;
 
 $color-1: #1b1b1b;
-$color-2: #ca4242;
-$color-3: #c79b9b;
-$color-4: #e2cbc2;
-$color-5: #e75a5a;
-$white: #ddd;
-$black: #333;
+$color-2: #4262ca;
+$color-3: #9ba3c7;
+$color-4: #c2c9e2;
+$color-5: #5a74e7;
+$white: rgb(230, 230, 230);
+$black: rgb(24, 24, 26);
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
@@ -31,6 +31,7 @@ body {
   max-width: 1200px;
   font-family: $font-1;
   color: $black;
+  min-width: 350px;
 }
 button {
   cursor: pointer;

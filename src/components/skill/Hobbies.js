@@ -1,7 +1,29 @@
 import React from "react";
 
 const Hobbies = () => {
-  return <div>Hobbies</div>;
+  return (
+    <div className="hobbies">
+      <h3>Intérêts</h3>
+      <ul>
+        <li className="hobby">
+          <i className="fas fa-dog"></i>
+          <span>Animaux</span>
+        </li>
+        <li>
+          <i className="fas fa-running"></i>
+          <span>Sports -Tennis</span>
+        </li>
+        <li>
+          <i className="fab fa-pagelines"></i>
+          <span>Nature</span>
+        </li>
+        <li>
+          <i className="fas fa-gamepad"></i>
+          <span>Gaming</span>
+        </li>
+      </ul>
+    </div>
+  );
 };
 
 export default Hobbies;
