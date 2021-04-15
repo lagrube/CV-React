@@ -17,10 +17,6 @@ const Hobbies = () => {
           <i className="fab fa-pagelines"></i>
           <span>Nature</span>
         </li>
-        <li>
-          <i className="fas fa-gamepad"></i>
-          <span>Gaming</span>
-        </li>
       </ul>
     </div>
   );
