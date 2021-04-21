@@ -6,11 +6,11 @@ const Experiences = () => {
       <h3>Expériences</h3>
       <div className="exp-1">
         <h4>STAPS -Licence</h4>
-        <h6>2011-2013</h6>
+        <h6>2014</h6>
       </div>
       <div className="exp-2">
         <h4>Chef d'équipe -Fauche</h4>
-        <h6>2013-2019</h6>
+        <h6>2014-2019</h6>
         <p>Technicien électricien</p>
       </div>
       <div className="exp-3">

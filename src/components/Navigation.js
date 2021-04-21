@@ -6,9 +6,9 @@ const Navigation = () => {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          Photo profil
+          <img src="./media/photo-profil.jpeg" alt="profil" />
           <h3>Gruber Guillaume</h3>
-          <p>27 ans (01/10/1993)</p>
+          <p>27 ans</p>
           <h4>
             <a
               href="https://github.com/lagrube/Portfolio-react"
