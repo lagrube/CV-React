@@ -9,7 +9,16 @@ const Navigation = () => {
           Photo profil
           <h3>Gruber Guillaume</h3>
           <p>27 ans (01/10/1993)</p>
-          <h4>lien PORTFOLIO</h4>
+          <h4>
+            <a
+              href="https://github.com/lagrube/Portfolio-react"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              Portfolio
+            </a>
+          </h4>
         </div>
       </div>
 
@@ -49,7 +58,7 @@ const Navigation = () => {
             </a>
           </li>
         </ul>
-        <div className="signature">Lien portfolio - 2021</div>
+        <div className="signature">Guillaume - 2021</div>
       </div>
     </div>
   );

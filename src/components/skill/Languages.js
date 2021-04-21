@@ -13,7 +13,7 @@ class Languages extends Component {
       { id: 1, value: "React", xp: 1.6 },
       { id: 2, value: "Vue-js", xp: 1.03 },
       { id: 3, value: "Express", xp: 1.4 },
-      { id: 4, value: "Mongoose", xp: 1.4 },
+      { id: 4, value: "NodeJs", xp: 1.4 },
     ],
   };
 

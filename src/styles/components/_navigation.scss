@@ -34,8 +34,15 @@
         margin-top: 1.5rem;
         color: $white;
       }
+      h4 {
+        margin-top: 10px;
+        &:hover {
+          letter-spacing: 1px;
+        }
+      }
       h4,
-      p {
+      p,
+      a {
         color: $white;
       }
     }
