@@ -16,7 +16,7 @@ const Experiences = () => {
       <div className="exp-3">
         <h4>Developpeur Web</h4>
         <h5>Bac +2 -OpenClassrooms 2021</h5>
-        <h6>2019-Now</h6>
+        <h6>2019-Maintenant</h6>
         <p>
           Retrouvez mes projets OpenClassrooms :<br />
           <a
@@ -25,7 +25,7 @@ const Experiences = () => {
             without
             rel="noreferrer"
           >
-            - Intégration web
+            - Intégration web & Réservation hôtel
           </a>
           <br />
           <a
@@ -34,7 +34,7 @@ const Experiences = () => {
             without
             rel="noreferrer"
           >
-            - Animation CSS
+            - Animation CSS & Réservation restaurant
           </a>
           <br />- SEO, Accessibilité :{" "}
           <a
@@ -62,7 +62,7 @@ const Experiences = () => {
             without
             rel="noreferrer"
           >
-            - Frontend Javascript
+            - Frontend Javascript & E-Commerce
           </a>
           <br />
           <a
@@ -80,12 +80,12 @@ const Experiences = () => {
             without
             rel="noreferrer"
           >
-            - FullStack VueJs Mysql
+            - FullStack VueJs Mysql & Réseau sociaux
           </a>
           <br />
-          Ainsi que mes projets perso :{" "}
+          Ainsi que mes projets personnel :{" "}
           <a
-            href="https://github.com/lagrube/Portfolio-react"
+            href="https://github.com/lagrube"
             target="_blank"
             without
             rel="noreferrer"

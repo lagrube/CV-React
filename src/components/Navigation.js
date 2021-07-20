@@ -14,7 +14,7 @@ const Navigation = () => {
           <p>27 ans</p>
           <h4>
             <a
-              href="https://github.com/lagrube/Portfolio-react"
+              href="https://lagrube.github.io/portfolio-deploy"
               target="_blank"
               without
               rel="noreferrer"
@@ -28,19 +28,23 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="navActive">
+            <NavLink exact to="/cv-deploy" activeClassName="navActive">
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/compétences" activeClassName="navActive">
+            <NavLink
+              exact
+              to="/cv-deploy/compétences"
+              activeClassName="navActive"
+            >
               <i className="fas fa-mountain"></i>
               <span>Compétences</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/contact" activeClassName="navActive">
+            <NavLink exact to="/cv-deploy/contact" activeClassName="navActive">
               <i className="fas fa-address-book"></i>
               <span>Contact</span>
             </NavLink>

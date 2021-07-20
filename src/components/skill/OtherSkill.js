@@ -7,16 +7,16 @@ const OtherSkill = () => {
       <div className="list">
         <ul>
           <li>
-            <i className="fas fa-check-square"></i> Github
-          </li>
-          <li>
-            <i className="fas fa-check-square"></i> Git
+            <i className="fas fa-check-square"></i> Git / Github
           </li>
           <li>
             <i className="fas fa-check-square"></i> SEO
           </li>
           <li>
             <i className="fas fa-check-square"></i> Accessibilité
+          </li>
+          <li>
+            <i className="fas fa-check-square"></i> Redux
           </li>
         </ul>
         <ul>
@@ -27,7 +27,7 @@ const OtherSkill = () => {
             <i className="fas fa-check-square"></i> Méthodes agiles
           </li>
           <li>
-            <i className="fas fa-check-square"></i> Autonome
+            <i className="fas fa-check-square"></i> Autonommie
           </li>
           <li>
             <i className="fas fa-check-square"></i> Fast Learner

@@ -15,7 +15,7 @@ const Hobbies = () => {
         </li>
         <li>
           <i className="fas fa-running"></i>
-          <span>Sports -Tennis</span>
+          <span>Sports - Tennis</span>
         </li>
         <li>
           <i className="fab fa-pagelines"></i>
