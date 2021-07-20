@@ -55,12 +55,22 @@ const Navigation = () => {
       <div className="socialNetwork">
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/guillaume-gruber-9a78a91b9/">
+            <a
+              href="https://www.linkedin.com/in/guillaume-gruber-9a78a91b9/"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
               <i className="fab fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com/lagrube">
+            <a
+              href="https://github.com/lagrube"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
               <i className="fab fa-github"></i>
             </a>
           </li>
