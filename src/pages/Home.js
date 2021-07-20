@@ -11,7 +11,7 @@ const Home = () => {
             <h2>Developpeur web</h2>
             <div className="pdf">
               <a
-                href={`${process.env.PUBLIC_URL}/img/CV-GG-sansLien.pdf`}
+                href={`${process.env.PUBLIC_URL}/img/CV-DevWeb.pdf`}
                 target="blank"
               >
                 Telecharger CV
